@@ -446,7 +446,7 @@
         <label for="weeks">Через несколько недель</label><br>
         <input type="checkbox" id="think" name="tattoo-time" value="think">
         <label for="think">Нужно подумать</label><br><br>`,
-      `<input type="text" id="nickname" name="nickname" placeholder="Ваш ник" style="width: 230px; height: 25px;"><br><br>`,
+      `<input type="text" id="nickname" name="nickname" placeholder="Номер телефона" style="width: 230px; height: 25px;"><br><br>`,
     ];
 
 
@@ -487,7 +487,7 @@
       } else {
         var nickname = document.getElementById("nickname").value;
         if (nickname.trim() === "") {
-          alert("Введите ваш ник");
+          alert("Введите ваш номер телефона");
           return;
         } else {
           selectedOptions = [nickname];
